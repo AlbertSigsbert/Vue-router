@@ -1,7 +1,7 @@
 <template>
   <h1>Jobs</h1>
   <div v-for="job in jobs" :key="job.id">
-    {{ job.title }}
+      {{job.title}}
   </div>
 </template>
 
